@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.metrics import confusion_matrix, roc_auc_score, average_precision_score
-from preprocessing.pipeline import build_pipeline
-from modeling.metrics import calculate_metrics
+from src.preprocessing.pipeline import build_pipeline
+from src.modeling.metrics import calculate_metrics
 
 FEATURE_SELECTION_STEPS = ["missing", "variance", "correlation", "clustering"]
 

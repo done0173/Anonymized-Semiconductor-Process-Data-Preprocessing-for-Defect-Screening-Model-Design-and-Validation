@@ -1,12 +1,12 @@
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler, RobustScaler, MinMaxScaler
 from imblearn.pipeline import Pipeline as ImbPipeline
-from preprocessing.feature_selection import (
+from src.preprocessing.feature_selection import (
     CoefficientOfVariationThreshold,
     CorrelationFilter,
     HierarchicalFeatureClusterer,
 )
-from preprocessing.missing_rate_threshold import MissingRateFilterWithIndicators
+from src.preprocessing.missing_rate_threshold import MissingRateFilterWithIndicators
 
 def get_imputer(strategy: str):
 

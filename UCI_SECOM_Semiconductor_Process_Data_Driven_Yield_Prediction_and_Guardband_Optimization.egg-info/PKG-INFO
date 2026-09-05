@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: UCI-SECOM-Semiconductor-Process-Data-Driven-Yield-Prediction-and-Guardband-Optimization
+Version: 0.1.0
+Summary: Semiconductor yield prediction using the SECOM dataset
+Requires-Python: >=3.11

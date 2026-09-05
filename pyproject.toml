@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "secom-yield-prediction"
+name = "UCI-SECOM-Semiconductor-Process-Data-Driven-Yield-Prediction-and-Guardband-Optimization"
 version = "0.1.0"
 description = "Semiconductor yield prediction using the SECOM dataset"
 requires-python = ">=3.11"
